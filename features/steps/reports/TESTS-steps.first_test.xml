@@ -1,0 +1,12 @@
+<testsuite errors="0" failures="0" name="steps.first_test.Checking search" skipped="0" tests="1" time="32.107928"><testcase classname="steps.first_test.Checking search" name="Сheck some text in search results" status="passed" time="32.107928"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Сheck some text in search results
+    Given website "ya.ru" ... passed in 5.667s
+    Then push button with text 'Найти' ... passed in 0.258s
+    Then page include text 'Задан пустой поисковый запрос' ... passed in 26.183s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
